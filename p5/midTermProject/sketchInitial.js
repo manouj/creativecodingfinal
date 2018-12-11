@@ -22,7 +22,8 @@ function draw() {
   //platform;
 
   rect(150,300,20,80);
-
+  person.update();
+  person.display();
 
   fill(000);
   rect(800,330,50,50);
